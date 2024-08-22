@@ -1,1 +1,45 @@
+Write a Java program to reverse an array of integers in place. The program should not use any additional arrays.
+public class learnjava {
+    public static void main(String[] args) {
+     int a = [1,2,3,4,5,6];
+     int Reverse = "";
+     int i = 0;
+     
+     
+     for(int i = 0;i<=a.length();)
+
+    }
+}
+
+
+Write a Java program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers that are multiples of both three and five, print "FizzBuzz".
+
+import java.util.Scanner;
+public class learnjava {
+    public static void main(String[] args) {
+    int a =[1,2,3,4,5,6,7,8,9,10];
+    
+    if(int i%3)
+        {
+            System.out.println("");
+        }
+    else if(i%5)
+}
+
+public class FactorialIterative {
+    public static void main(String[] args) {
+        int number = 5;
+        int result = factorial(number);
+        System.out.println("Factorial of " + number + " is " + result);
+    }
+
+    public static int factorial(int n) {
+        int result = 1;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
+}
+
 
